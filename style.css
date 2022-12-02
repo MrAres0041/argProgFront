@@ -12,6 +12,7 @@ body{width: 100%;
     animation: mover 10s ease-in infinite;
     }
 
+
 @keyframes mover{
     0%{background-position: 0 50%;}
     50%{background-position: 100% 50%;}

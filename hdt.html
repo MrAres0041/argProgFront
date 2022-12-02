@@ -2,13 +2,53 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Historial de trabajo</title>
 
 </head>
 
-<body bgcolor="#FFAA4A">
+<body>
+  <center>
     
+    <h1 class="display-1">Historial de Trabajo</h1>
+    <br>
+    <h2 class="display-6">Agregar trabajo:</h2><br>
+    <form class="card card-body bg-orange" style="width: fit-content;">
+      <label for="nCursado">Nombre de empresa</label>
+      <input type="text" id="nCursado" name="nCursado">
+      <label for="añoIni">Año de inicio</label>
+      <input type="date" id="añoIni" name="añoIni">
+      <label for="añoFin">Año de Finalizado</label>
+      <input type="date" id="añoFin" name="añoFin">
+      <label for="estado">Estado</label>
+      <input type="text" id="estado" name="estado"><br>
+      <input type="submit" value="Agregar">
+    </form><br>
+  
+    <h2 class="display-6">Historial:</h2><br>
+  
+    <div class="container display-6 card card-body bg-orange" style="width:fit-content">
+      <div class="row align-items-start">
+        <div class="col">
+          Nombre de empresa:
+        </div>
+        <div class="col">
+          Año de inicio:
+        </div>
+        <div class="col">
+          Año de finalizado:
+        </div>
+        <div class="col">
+          Años trabajados:
+        </div>
+        <div class="col">
+          Estado:
+        </div>
+      </div>
+    </div>
+  
 
+  </center>
 </body>
 </html>
