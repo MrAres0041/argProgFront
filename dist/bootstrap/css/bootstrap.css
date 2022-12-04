@@ -12,10 +12,7 @@
   padding: 0;
 }
 
-fondoMamalon{
-  background: rgb(190,188,24);
-  background: radial-gradient(circle, rgba(190,188,24,1) 0%, rgba(162,130,85,1) 69%, rgba(255,85,0,1) 100%);
-}
+
  
 :root {
   --bs-blue: #0d6efd;
@@ -63,8 +60,8 @@ fondoMamalon{
   width: 100%;
   height: 100vh;
   color:fff;
-  background: rgb(190,188,24);
-  background: radial-gradient(circle, rgba(190,188,24,1) 0%, rgba(162,130,85,1) 69%, rgba(255,85,0,1) 100%);
+  background: rgb(255,246,55);
+  background: radial-gradient(circle, rgba(255,246,55,1) 0%, rgba(221,132,7,1) 79%, rgba(172,117,6,1) 100%);
   }
 
 
@@ -477,6 +474,8 @@ progress {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
   line-height: 1.2;
+  text-decoration-line:underline overline;
+  text-shadow: 2px 2px #a05500;
 }
 @media (min-width: 1200px) {
   .display-1 {
@@ -532,6 +531,7 @@ progress {
   font-size: calc(1.375rem + 1.5vw);
   font-weight: 300;
   line-height: 1.2;
+  text-shadow: 2px 2px #a05500;
 }
 @media (min-width: 1200px) {
   .display-6 {
@@ -7416,7 +7416,7 @@ textarea.form-control-lg {
 }
 
 .bg-orange {
-  background-color: #fc4103 !important;
+  background-color: #FF9D2D !important;
 }
 
 .bg-light {
